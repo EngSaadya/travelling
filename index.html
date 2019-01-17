@@ -1,0 +1,249 @@
+﻿<html>
+    <head>
+
+      <meta charset="UTF-8"/>
+      			<meta name="veiwport" content="width=device-width,initial-scale=1">
+      			<meta http-equiv="X-UA-compatible" content="IE-edge">
+
+      			<title>PowerFul </title>
+
+        <link rel="stylesheet" href="res/style3.css">
+        <link rel="stylesheet" href="res/nivo-slider.css">
+
+        <section class="loading-overlay text-center" >
+        			<h1> PowerFul </h1>
+        			<div class="spinner">
+        			<div class="double-bounce1"></div>
+        			<div class="double-bounce2"></div>
+        		</section>
+
+
+    </head>
+    <body>
+
+    <div class="nav">
+        <ul class="dropdown">
+<li><button style="background-color:#ffd670;color:#762a62;border:none;font-size: 25px;height:40px;width:150px;text-align: center;position: relative;">Book</button></li>
+          <li style="float:left;"><a href="#"> <img src="images1/logo.png"></a></li>
+           <li><a href="#company"> Companies</a></li>
+             <li><a href="#hotels">Hotels</a></li>
+                <li><a href="#restaurant">Restaurants</a></li>
+                     <li><a href="#contact-us">Contacts</a></li>
+                        <li id="last"><a href="index3.html">Home</a></li>
+        </ul>
+
+    </div>
+    <!-- images slide show-->
+    <div id="slider" class="nivoSlider">
+        <a href="#"><img id="img" src="images1/slider/7.jpg" alt="slide 1" /></a>
+
+
+
+
+
+<!-- /*************** show book*************************/ -->
+
+<!-- /***********************/ -->
+<div style="width:100%;height:70px; color:#ffffff;font-size:50px;text-align: center;position:relative;top:200px;">
+              Your Journey Start From Here <br>
+                <a href="index.html" style="color:#ffd670;">PowerFul</a>
+            </div>
+
+          <div>
+
+        </div>
+
+
+
+
+<!--/*******************************/  -->
+
+
+    </div>
+
+    <div class="services">
+        <div class="topheader">
+            <h1>OUR Companies</h1>
+          <marquee>  <p>the best companies only for you ,with the best servieces .</p></marquee>
+        </div>
+
+
+        <!-- <div class="bottomheader">
+            <div class="service"><div class="radservice"></div>Pellentesque nec dui vel risus dignissim congue id vel diam. Vestibulum vestibulum orci at sodales tincidunt. Aliquam erat volutpat. Aliquam fringilla quis risus quis porttitor. Cras eu faucibus purus.</div>
+            <div class="service"><div class="radservice"></div>Pellentesque nec dui vel risus dignissim congue id vel diam. Vestibulum vestibulum orci at sodales tincidunt. Aliquam erat volutpat. Aliquam fringilla quis risus quis porttitor. Cras eu faucibus purus.</div>
+            <div class="service"><div class="radservice"></div>Pellentesque nec dui vel risus dignissim congue id vel diam. Vestibulum vestibulum orci at sodales tincidunt. Aliquam erat volutpat. Aliquam fringilla quis risus quis porttitor. Cras eu faucibus purus.</div>
+                </div> -->
+              <!-- hotels -->
+                <div class="grid-container" id="company">
+
+                  <div><a href="#"  onclick="event.preventDefault();" ><img  class="comp" src="img/com.jpg" onclick="show(event)" alt="the best you choose "/></a><br><input class="btncomp" type="button" value="Learn More"/></div>
+                  <div><a href="#"  onclick="event.preventDefault();" ><img  class="comp" src="img/cm3.jpg" onclick="show(event)" alt="the best you choose"/></a><br><input class="btncomp" type="button" value="Learn More"/></div>
+                  <div><a href="#"  onclick="event.preventDefault();" ><img  class="comp" src="img/cm4.jpg" onclick="show(event)" alt="the best you choose "/></a><br><input class="btncomp" type="button" value="Learn More"/></div>
+                </div>
+          <!-- companies -->
+          <div class="topheader">
+            <h1>OUR Hotels</h1>
+            <marquee><p>the best hotels only for you ,with the best servieces .</p></marquee>
+</div>
+
+                <div class="grid-container" id="hotels">
+
+
+                                    <div><a href="#" onclick="event.preventDefault();"><img  class="comp" src="img/ssheg_phototour163.jpg" onclick="show(event)" alt="happy hotel for best camping "/></a><br><input class="btncomp" type="button" value="Learn More"/></div>
+                                    <div><a href="#" onclick="event.preventDefault();" ><img  class="comp" src="img/ssheg_phototour132.jpg" onclick="show(event)" alt="the new hotel the best choice"/></a><br><input class="btncomp" type="button" value="Learn More"/></div>
+                                    <div><a href="#" onclick="event.preventDefault();"><img  class="comp" src="img/ssheg_phototour129.jpg" onclick="show(event)" alt="dream hotel only for you"/></a><br><input class="btncomp" type="button" value="Learn More"/></div>
+
+
+</div>
+<div class="modal" id="themodel">
+<span class="close" onclick="closebtn(event);">&times;</span>
+<img id="mod" class="modal-content">
+<div id="caption"></div>
+</div>
+
+
+
+
+
+    </div>
+    <div class="topheader">
+      <h1>OUR Restaurants</h1>
+      <marquee><p>the best restaurants only for you ,with the best servieces .</p></marquee>
+</div>
+    <div class="restaurant" id="restaurant">
+
+      <div class="grid-container">
+
+        <div class="item8">
+        <img  src="img/rest3.jpg" id="imgrestcontent" style="width:200px;height:250px;border-radius:100%;float:left;margin-left:70px;margin-top:70px;" />
+     <span id="restcontent" style="float:right;width:60%;padding-top:50px;padding-right:30px;color:#38b2e7;">
+       Cape Town’s restaurant scene one of the most acclaimed in the world? With so many great eateries to choose from, it helps when people with such credentials bring their valuable insights to the table.
+
+</span>
+
+  </div>
+
+        <div class="item" style="padding-left: 20px; margin-left:45px;">
+        <a href="#" onclick="event.preventDefault();"><img  id="rest"  class="restaurant" src="img/rest3.jpg" alt="slide 1" style="width:99%;height:99%;border-radius:20%;"  onclick="change(event);" /></a>
+             <span class="content">
+Cape Town’s restaurant scene one of the most acclaimed in the world? With so many great eateries to choose from, it helps when people with such credentials bring their valuable insights to the table.
+            </span>
+ </div>
+        <div class="item" style="padding-left: 20px;">
+<a href="#" onclick="event.preventDefault();"><img class="restaurant" id="rest" src="img/rest1.jpeg" alt="slide 1" style="width:99%;height:99%;border-radius:20%;"  onclick="change(event);" /></a>
+
+<span class="content">LB Restaurants was formed in 2010 and consists of two concepts: Matt the Miller’s Tavern, of which there are four current locations – in Dublin, Grandview, and the Polaris area of Central Ohio, and Carmel, Indiana and Tucci’s in Historic Dublin.
+
+</span>
+ </div>
+        <div class="item" style="padding-left: 20px;">
+<a href="#" onclick="event.preventDefault();"><img  class="restaurant" id="rest" src="img/rest2.jpeg" alt="slide 1" style="width:99%;height:99%;border-radius:20%;" onclick="change(event);"/></a>
+<span class="content">
+  Divine dining with a dramatic viewDining
+
+  With a mix of mouth-watering cuisine, delicious drinks and stunning design, we offer an extensive choice of restaurants and bars
+
+</span>
+</div>
+
+      </div>
+
+    </div>
+
+    				<!------------------------------------ Contact us---------------------------------------->
+
+    		<section class="contact-us" id="contact-us">
+
+    				<div class="container">
+
+              <div class="container-left">
+                    <a href="#"> <img src="images/logo.png"></a>
+
+
+              </div>
+
+
+            <div class="container-right">
+            						<i></i>
+            						<h1  class="fa fa-headphones fa-3x">  Tell Us What You Fell </h1>
+
+            							<form role="form">
+
+            									<input type="text" class="form-control " placeholder="Username" style="width:220px;margin-left:10px;">
+
+
+            									<input type="text" class="form-control "  placeholder="Email" style="width:220px;margin-left:10px;">
+
+
+                            <div class="form-group" style="padding-left:20px;margin-top:30px;">
+        	                <textarea class="form-control  placeholder="Your Message" " style="width:440px;"> </textarea>
+                           </div>
+                                <div class="form-group" style="padding-left:170px;padding-top:50px;">
+                              <input type="button" class="btn btn-danger  btn-block" value="Contact Us " style="width:150px;height:50px;background-color:#ffd670;color:#762a62;border:none;">
+                              </div>
+            							</form>
+
+
+
+
+
+
+                   </div>
+
+
+    					</div>
+
+    				</div>
+
+<div class="menue-list">
+
+  <ul class="links">
+
+     <li><a href="#">Home</a></li><br><br>
+    <li><a href="#">Hotels</a></li><br><br>
+    <li><a href="#">Companies</a></li><br><br>
+    <li><a href="#">Book</a></li><br>
+
+
+
+  </ul>
+
+</div>
+    			</div>
+
+    		</section>
+
+
+
+
+    			<!------------------------------------- footer ------------------------------------------->
+
+    		<!-- <section class="footer">
+    			<div class="container">
+
+            <div class="copyright text-center">
+
+              Copyright &copy  2018 <span  class="names">Design By </span> <span> Saadya Gamal Ali </span>
+
+            </div>
+    					</div>
+
+
+
+
+
+
+
+    		</section> -->
+    		<!----------------------------------------------- loding  ----------------->
+
+
+        <script src="res/jquery-3.1.0.min.js"></script>
+                 <script src="res/jquery-3.1.0.js"></script>
+  <script src="res/stylejs.js"></script>
+<script src="res/jeq.js"></script>
+
+</body>
+
+
+</html>
